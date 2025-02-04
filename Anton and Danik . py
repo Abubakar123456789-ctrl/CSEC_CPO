@@ -1,0 +1,8 @@
+n=input ()
+p=input ()
+if p. count('A')>p.count('D')   :
+    print ('Anton')
+elif p.count('D') >p. count('A'):
+    print ('Danik')
+else :
+    print ('Friendship')  
