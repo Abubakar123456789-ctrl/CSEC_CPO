@@ -1,0 +1,9 @@
+n, m= input(). split()
+l=0
+k=input(). split ()
+for I in k:
+    if int(m) <int(I):
+        l+=2
+    elif int( m)>=int(I):  
+        l+=1   
+print (l)
