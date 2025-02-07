@@ -1,0 +1,10 @@
+m=[]
+for I in range (5):
+    m. append (list(map(int, input(). split())))
+for I in range (5) :
+    for j in range (5):
+        if m[I][j]==1:
+            r=I+1
+            c=j+1
+p=abs(r-3)+abs(c-3)         
+print (p)
