@@ -1,0 +1,9 @@
+n=input()
+p=''
+for I in n:
+    if I not in p:
+        p+=I 
+if len(p)%2==1:
+    print ('IGNORE HIM!')   
+else :
+    print ('CHAT WITH HER!')  
