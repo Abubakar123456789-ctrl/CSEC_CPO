@@ -1,0 +1,13 @@
+lettter =input ()
+u=0
+p=0
+for I in lettter:
+    c=I 
+    if I ==c.lower():
+         u+=1
+    else:
+        p+=1
+if u>=p:
+    print (lettter.lower())
+else :
+    print (lettter.upper())
