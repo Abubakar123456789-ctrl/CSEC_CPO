@@ -1,0 +1,10 @@
+no=int(input())
+n=0
+co=input ()
+cc=co+' '
+for I in range (len(co)):
+    if co[I]==cc[I+1]:
+         n+=1
+    else :
+        n+=0
+print (n)           
