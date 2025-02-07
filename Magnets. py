@@ -1,0 +1,10 @@
+n=int (input())
+l=input ()
+u=1
+w=[l]
+for p in range (n-1):
+    t=input ()
+    if w[p]!=t:
+        u+=1
+    w.append(t)
+print (u)
