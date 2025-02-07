@@ -1,0 +1,15 @@
+n = int(input())  
+m = list(map(int, input().split()))  
+p, q = 0, 0  
+turn = 0  
+while m:  
+    if m[0] > m[-1]:  
+        l = m.pop(0)  
+    else:  
+        l = m.pop(-1)  
+    if turn % 2 == 0:  
+        p += l  
+    else:  
+        q += l  
+    turn += 1 
+print(p, q)
