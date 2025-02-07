@@ -1,0 +1,6 @@
+n=list(map(int, input(). split()))
+m=input ()
+p=0
+for I in m:
+    p+=n[int(I)-1]
+print (p)
