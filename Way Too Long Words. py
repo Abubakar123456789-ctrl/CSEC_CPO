@@ -1,0 +1,14 @@
+n=int(input())
+l=[]
+for i in range(n):
+    m=input()
+    if len(m)<=10:
+        l.append(m)
+    else:
+        b=m[0]
+        b1=m[-1]
+        c=str(len(m)-2)
+        k=b+c+b1
+        l.append(k)
+for i in l:        
+   print(i)
