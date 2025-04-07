@@ -1,0 +1,23 @@
+n=int(input())
+p=int((n-1)/2)
+l=[]
+k=0
+for I in range (n):
+    m =map(int,input(). split())
+    l.append(list (m))
+for I in range (n):
+    for j in range (n):
+        if I==j:
+            k+=int(l[I][j])
+for I in range (n):
+    if p!=I:
+      k+=int(l[p][I]) 
+for I in range (n):
+    if p!=I:
+      k+=int(l[I][p]) 
+l. reverse ()
+for I in range (n):
+    for j in range (n):
+        if I==j and (I!=p or j!=p):
+            k+=int(l[I][j]) 
+print (k)
