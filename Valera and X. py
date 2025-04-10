@@ -1,22 +1,29 @@
-n = int(input())  
-grid = [input().strip() for _ in range(n)]  
-
-d = grid[0][0]  # Character on the diagonals
-o = grid[0][1]  # Character outside the diagonals
-
-if d == o:  
-    print("NO")
-    exit()
-
-for i in range(n):
-    for j in range(n):
-        if (i == j or i + j == n - 1):  # Diagonal positions
-            if grid[i][j] != d:
-                print("NO")
-                exit()
-        else:  # Non-diagonal positions
-            if grid[i][j] != o:
-                print("NO")
-                exit()
-
-print("YES")
+n=int(input ())
+l=[]
+y=[]
+for I in range (n):
+    m=input ()
+    l.append(m)
+p=l[0][0]
+p1=l[0][1]  
+if p==p1:
+    print ('NO')
+else :   
+    k=n-1
+    for I in range (n):
+            if p!=l[I][I] or p!=l[I][k]:
+                y.append (1)
+            k-=1 
+    k=n-1
+    for I in range (n):
+      for j in range (n): 
+       if I !=j and j!=k:  
+           if p1!=l[I][j] or p!=l[I][k]:
+                 y.append (1)  
+      k-=1      
+    if 1 in y:
+         print ('NO')   
+    else :
+         print ('YES')        
+               
+        
