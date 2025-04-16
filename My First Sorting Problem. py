@@ -1,0 +1,5 @@
+n=int(input())
+for I in range (n):
+    m=list(input( ). split())
+    m.sort()
+    print (' '.join(m))
