@@ -1,0 +1,19 @@
+n=int(input())
+for I in range (n):
+    r,l,k=-1,0,0
+    m=input ()
+    b=input ()
+    for I in range(int(int(m)/2)):
+        if b[l]=="0" and b[r]=="1":
+            l+=1
+            r-=1
+            k+=1
+        elif b[l]=="1" and b[r]=="0":
+            l+=1
+            r-=1   
+            k+=1
+        else :
+            break  
+    print (len(b)-(k*2))     
+        
+    
