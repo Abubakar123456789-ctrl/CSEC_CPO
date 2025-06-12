@@ -1,0 +1,9 @@
+a=int(input ())
+b=int(input ())
+c=int(input ())
+q=a*(b+c)
+q1=a+b*c
+q2=a*b*c
+q3=(a+b)*c
+q4=a+b+c
+print (max(q,q1,q2,q3,q4))
