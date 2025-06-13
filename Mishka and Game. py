@@ -1,0 +1,14 @@
+n=int(input())
+m=c=0
+for I in range (n):
+    a, s=input (). split ()
+    if a>s:
+        m+=1
+    elif a<s:
+        c+=1
+if m>c:
+    print ('Mishka')   
+elif c>m:
+    print ('Chris')  
+else :
+    print ('Friendship is magic!^^')
