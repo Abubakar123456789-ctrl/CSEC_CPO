@@ -1,0 +1,7 @@
+n=int (input())
+v=0
+for I in range(n):
+    a,b=input (). split ()
+    if int(b)-int(a)>1:
+        v+=1
+print (v) 
