@@ -1,0 +1,9 @@
+n=int(input())
+for I in range (n):
+    a,b, c=input (). split ()
+    if int(b)>int(a) and int(b)<int(c):
+        print ('STAIR')
+    elif  int(b)>int(a) and int(b)>int(c):
+        print ('PEAK')
+    else :
+        print ('NONE')  
