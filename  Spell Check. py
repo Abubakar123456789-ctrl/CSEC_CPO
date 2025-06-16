@@ -1,0 +1,11 @@
+n=int(input())
+for I in range (n):
+    b=int(input())
+    c=input ()
+    if b==5:
+        if 'T' in c and 'i' in c and 'm' in c and 'u' in c and 'r' in c:
+              print ('YES')
+        else :
+            print ('NO')    
+    else :
+        print ('NO')
