@@ -1,0 +1,10 @@
+n=int(input())
+for I in range (n):
+    b=int(input())
+    c=list(map(int,input().split()))
+    if c.count(1) %2==0 and c.count(2) %2==0:
+            print ('YES')
+    elif c.count(1) %2==0 and c.count (1)>0 and c.count(2) %2==1:
+            print('YES')
+    else :
+            print('NO')
