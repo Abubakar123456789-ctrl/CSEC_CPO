@@ -1,0 +1,9 @@
+n=int(input())
+for I in range (n):
+    b=int(input())
+    if b==2 or b==4:
+        print (1)
+    elif b%4==0:
+        print (b//4)  
+    else :
+          print (b//4 +1)
