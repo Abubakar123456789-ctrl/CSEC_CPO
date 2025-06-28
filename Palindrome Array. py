@@ -1,0 +1,8 @@
+n=int(input ())
+b=list(input(). split())
+for I in range (int(n/2)):
+    if b[I]!=b[n-1-I]:
+        print ('NO')
+        break 
+else :
+    print ('YES')
