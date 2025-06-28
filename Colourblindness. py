@@ -1,0 +1,12 @@
+n=int(input())
+for I in range (n):
+    b=int(input())
+    b1=input ()
+    b2=input ()
+    for I in range (b):
+        if (b1[I]!=b2[I]) and (b1[I]=='R' or b2[I]=='R'):
+            print ('NO')
+            break 
+    else :
+        print ('YES')      
+            
