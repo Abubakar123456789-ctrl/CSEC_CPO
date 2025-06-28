@@ -1,0 +1,11 @@
+n=int(input())
+b=list (map(int, input(). split()))
+c=''
+for I in b:
+    if I <0:
+        c+='2 '
+    elif I >0:
+        c+='1 '  
+    else :
+        c+='0 '    
+print (c)       
