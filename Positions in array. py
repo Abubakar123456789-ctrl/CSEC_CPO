@@ -1,0 +1,5 @@
+n=int(input ())
+b=list(map(int,input(). split()))
+for I in range(n):
+    if b[I] <=10:
+        print (f'A[{I}] = {b[I]}')
