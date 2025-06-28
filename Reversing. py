@@ -1,0 +1,7 @@
+n=input ()
+m=list(input(). split())
+m.reverse()
+b=''
+for I in m:
+    b+=I +' '
+print (b)
