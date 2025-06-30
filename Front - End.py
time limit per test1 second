@@ -1,0 +1,19 @@
+n=int(input())
+m=list(map(int, input(). split()))
+l=''
+b=0
+c=len(m)-1
+if len(m)%2==1:
+  while c!=b:
+         l+=str(m[b])+" "
+         l+=str((m[c]))+" "
+         b+=1
+         c-=1
+  print (l+str(m[c]))   
+else :
+  while c>b:
+         l+=str(m[b])+" "
+         l+=str((m[c]))+" "
+         b+=1
+         c-=1
+  print (l) 
