@@ -1,0 +1,7 @@
+n=int(input())
+for I in range (n):
+    m, n=input (). split ()
+    if m==n:
+        print ('Square')
+    else :
+        print ('Rectangle')  
