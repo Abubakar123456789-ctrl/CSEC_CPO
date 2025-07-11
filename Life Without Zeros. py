@@ -1,0 +1,19 @@
+n=int(input ())
+m=int(input ())
+c=m+n
+x=''
+z=''
+d=''
+for I in str(n):
+    if I != '0':
+        x+=I 
+for I in str(m):
+    if I != '0':
+        z+=I
+for I in str(c):
+    if I !='0':
+        d+=I 
+if int(d)==int(x)+int(z):
+    print ('YES')   
+else :
+    print ('NO')
