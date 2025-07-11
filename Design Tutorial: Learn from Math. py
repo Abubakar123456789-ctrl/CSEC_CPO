@@ -1,0 +1,13 @@
+n=int(input())
+if n%2==0:
+    print (n-8,8)
+else :
+  c=n-8
+  b=8
+  for I in range (2):
+    if c%2==0 or c%3==0:
+       print (c,b)
+       break 
+    else:
+        c-=1
+        b+=1
