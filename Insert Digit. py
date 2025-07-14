@@ -1,0 +1,16 @@
+n=int(input())
+for I in range (n):
+   c,b=map(int, input(). split())
+   m=input ()
+   x=''
+   y=0
+   for I in m:
+         if b>int(I) and y==0:
+             x+=str(b)+I 
+             y+=1
+         else :
+             x+=I 
+   if len(m)==len(x):
+         print (x+str(b))       
+   else :
+         print (x)  
