@@ -1,0 +1,7 @@
+n=int(input())
+b=0
+m=list(map(int, input(). split()))
+for I in m:
+    if I +1 in m:
+        b+=1
+print (b)       
