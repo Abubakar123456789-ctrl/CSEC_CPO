@@ -1,0 +1,7 @@
+n=int(input())
+for I in range (n):
+    b, c=map(int, input(). split())
+    if b*2<=c:
+        print (b,b*2)
+    else :
+        print (-1,-1)  
