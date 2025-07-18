@@ -1,0 +1,15 @@
+n=int(input())
+b=[]
+h=0
+for I in range (n):
+    c=[]
+    for j in range (n):
+        if I>0 and j>0 :
+            c. append(c[j-1]+b[I-1][j])  
+            h=max(c)
+        else :
+            c.append(1)
+            h=max(c)
+    b.append(c)        
+print (h)           
+               
