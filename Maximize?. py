@@ -1,0 +1,4 @@
+n=int(input())
+for I in range (n):
+    b=int(input())
+    print (b-1)
