@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input(). split()))
+z=l. count (0)
+for I  in range (len(l)):
+    if l[I]==0:
+        c=l[:I]
+        l=l[I:]
+        c.reverse()
+        l=c+l
+print (' '.join(map(str,l)))       
+    
