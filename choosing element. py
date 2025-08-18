@@ -1,0 +1,8 @@
+n, m=map(int, input(). split())
+b=list (map(int, input(). split()))
+b. sort(reverse=True)
+s=0
+for I in range(m):
+    if b[I]>0:
+         s+=b[I]
+print (s)   
