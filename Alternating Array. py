@@ -1,0 +1,23 @@
+n = int(input())
+a = list(map(int, input().split()))
+
+ops1 = ops2 = 0
+
+for i in range(n):
+    # expected for pattern1 (start positive)
+    if i % 2 == 0:  # even index
+        if a[i] < 0:  # should be positive
+            ops1 += 1
+    else:  # odd index
+        if a[i] > 0:  # should be negative
+            ops1 += 1
+
+    # expected for pattern2 (start negative)
+    if i % 2 == 0:  # even index
+        if a[i] > 0:  # should be negative
+            ops2 += 1
+    else:  # odd index
+        if a[i] < 0:  # should be positive
+            ops2 += 1
+
+print(min(ops1, ops2))
